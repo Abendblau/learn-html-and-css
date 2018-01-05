@@ -3,11 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="style.css">
     <title>Pizzeria Mario Berlin</title>
 	<meta name="description" content="Besuchen Sie Pizzeria Mario in Friedrichshain. Genießen Sie in der Andreasstraße 62, 10243 Berlin: frische Pizza, Pasta und Salate.">
 	<meta name="keywords" content="pizza, pasta, salate, restaurant, holzofen, bestellen, friedrichshain">
 	
+	
+	<style>
+
+	#warnung{
+		color: red;
+		padding: 1em;
+	}
+	
+	#geschwister-box { background-color: green; }
+
+	#eltern-box { margin-top: 1em; background-color: yellow;}
+
+	#kind-box { margin-top: 2em; }
+	
+	
+	
+	</style>
 	
   </head>
   <!--------------------- BODY ---------------->
@@ -30,29 +47,54 @@
 		<h1>Willkommen bei Pizzeria Mario</h1>
 		<p>Pizzeria Mario in Berlin Friedrichshain verwöhnt Sie seit 1995. Besuchen Sie uns und genießen Sie beste Pizza aus dem Holzkohle-Steinofen. Wir verwenden nur hochwertige und frische Zutaten. </p>
 		
+			
+		
 		<h2>Spezialität der Woche</h2>
 		<p> Diese Woche bieten wir Ihnen einen Insalata de Gamberetto an mit frischen Garnelen aus dem Mittelmeer. </p>
 		
-		<div id="angebot">
-		<h2>Angebot</h2>
+		<div class="angebot">Ein besonderes Angebot.</div>
+		
+		<h2>Speisen</h2>
 		<ul>
 			<li><a href="html/speisekarte.html#pizza">
 			<img src="img/pizza_icon.png" style="width:25px; height:25px">Pizzen</a></li>
 			<li>Salate</li>
 			<li>Nudel-Gerichte</li>		
 		</ul>
-		</div>
+	
 		
 		
 		<p style="font-style: italic;">Pizzeria Mario liefert auch gerne zu Unternehmen</p>
 	
+	<h2>Authentische Küche</h2>
+	<p style="text-align: center; color: blue">"originale italiano"<p>
+	<h3>Unsere Geschichte</h3>
+	<p class="tradition">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+	<div class="boxmodel">
+	Für Anfänger irritierend ist, dass mehrere Boxen nicht nebeneinander dargestellt werden, obwohl deren Gesamtbreite genau der Breite des Eltern-Elements entspricht. Dies liegt daran, dass alle Bestandteile einer Box addiert werden.
+	</div>
+	<!-- Zusammenfallen von Außenabständen -->
+	<div id="geschwister-box">Geschwister-Box.</div>
+	<div id="eltern-box">
+	<div id="kind-box">Kind-Box.</div>
+	</div>
 	
+	<h4>Seit 1995 in Berlin</h4>
+	<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est </p>
+	<h4>Die Familie</h4>
+	<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est </p>
+	<h3>Beste Zutaten</h3>
+	<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est </p>
+	
+	<div id="warnung">Sie können eine id innerhalb eines HTML-Dokuments nur einmal verwenden!</div>
+	
+	<p>
 	https://wiki.selfhtml.org/wiki/HTML/Tutorials/HTML-Einstieg/Kapitel9
 	https://wiki.selfhtml.org/wiki/CSS/Anwendung_und_Praxis/Layout_mit_Flexbox
 	https://wiki.selfhtml.org/wiki/CSS/Anwendung_und_Praxis
 	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 	https://www.w3schools.com/css/css_font.asp
-	
+	</p>
 	
 	
 	
